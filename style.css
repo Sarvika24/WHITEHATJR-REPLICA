@@ -1,0 +1,49 @@
+div {
+    width: 300;
+    border: 5px solid orange;
+    padding: 10px;
+    margin: 20px;
+  }
+
+h1 {
+    color: rgb(240, 148, 10);
+}
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #068f7de0;
+    color: white;
+    font-size: 30px;
+    margin-right: auto;
+  }
+  
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
